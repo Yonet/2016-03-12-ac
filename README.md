@@ -1,5 +1,3 @@
-# ac-class-template
-Empty template for class slides
 
 ### Setup
 

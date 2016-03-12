@@ -44,18 +44,80 @@
 
         <!--Introduction slide-->
         <section>
-            <h1>Class Name</h1>
-            <h3></h3>
-            <p>
-
-            </p>
+            <h2>Git and Functions Review</h2>
         </section>
         <!--/Intro Slides-->
 
         <section>
-            <h2></h2>
-            <pre><code class="hljs" data-trim contenteditable>
+            <h2>On Board</h2>
+            <p>Write what you remember & your questions about:</p>
+            <ul>
+                <li class="fragment"><a href="" target="_blank">Functions</a></li>
+                <li class="fragment"><a href="" target="_blank">Objects</a></li>
+                <li class="fragment"><a href="" target="_blank">Arrays</a></li>
+            </ul>
+            <aside class="notes"></aside>
+        </section>
 
+        <!--Git Slides-->
+        <section>
+            <img src="images/Octocat.png"  alt="">
+        </section>
+        <section>
+            <h2>Git</h2>
+
+            <ul>
+                <li class="fragment">What is the point of Git?</li>
+                <li class="fragment">How do we use it?</li>
+                <li class="fragment"><a href="https://guides.github.com/introduction/flow/" target="_blank">Git Flow</a></li>
+            </ul>
+            <aside class="notes"></aside>
+        </section>
+
+        <section>
+            <h2>Exercise</h2>
+            <ul>
+                <li class="fragment">Fork <a href="https://github.com/Yonet/ac-algorithms" target="_blank">this repo.</a></li>
+                <li class="fragment"><a href="#/5">Clone it from your own forked repository down to your computer.</a></li>
+                <li class="fragment"><a href="#/6">Create a new branch with your initials, ex: ays, ays-algo.</a></li>
+                <li class="fragment">Solve the algorithm problem.</li>
+                <li class="fragment"><a href="#/8">Push the repository to your github.</a></li>
+                <li class="fragment">Make a pull request to the original repo</li>
+            </ul>
+            <p>
+                <a href=""></a>
+            </p>
+            <aside class="notes">If you prefix your branches with your name, it is easier to delete them after you are done.</aside>
+        </section>
+
+        <section>
+            <h2>Clone a repo</h2>
+            <pre><code class="hljs" data-trim contenteditable>
+git clone https://github.com/Yonet/ac-algorithms
+cd ac-algorithms
+            </code></pre>
+            <p>
+                <a href=""></a>
+            </p>
+            <aside class="notes"></aside>
+        </section>
+
+        <section>
+            <h2>Create a new branch</h2>
+            <pre><code class="hljs" data-trim contenteditable>
+git branch your-branch-name
+            </code></pre>
+            <aside class="notes"></aside>
+        </section>
+
+        <section>
+            <p>Solve the questions inside <a href="https://github.com/Yonet/ac-algorithms/blob/master/simpleAdding/simpleAdding.js" target="_blank">simpleAdding</a> folder.</p>
+        </section>
+
+        <section>
+            <h2>Check changed files</h2>
+            <pre><code class="hljs" data-trim contenteditable>
+                git status
             </code></pre>
             <p>
                 <a href=""></a>
@@ -64,18 +126,62 @@
         </section>
 
 
-        <!--Slide with list temp-->
+
         <section>
-            <h2></h2>
+            <h2>Add changed files</h2>
+            <pre><code class="hljs" data-trim contenteditable>
+git add file-name
+git add .
+git status
+            </code></pre>
+            <p>
+                <a href=""></a>
+            </p>
+            <aside class="notes">
+                add . to add all changed files. Not a good idea!
+                Git status to check what's been added.
+            </aside>
+        </section>
+
+        <section>
+            <h2>Commit your changes</h2>
+            <pre><code class="hljs" data-trim contenteditable>
+            git commit -m "I have added some amazing functionality"
+            </code></pre>
+            <p>
+                <a href=""></a>
+            </p>
+            <aside class="notes">
+                Commit messages are important. Describe what changed well. It makes it easier to find changes.
+            </aside>
+        </section>
+
+        <section>
+            <h2>Push to github</h2>
+            <pre><code class="hljs" data-trim contenteditable>
+git push origin your-branch-name
+            </code></pre>
+            <p>
+                Ready to create your first pull request to master branch?
+            </p>
+            <aside class="notes"></aside>
+        </section>
+
+        <section>
+            <h3>Good news!</h3>
             <ul>
-                <li class="fragment"><a href="" target="_blank"></a></li>
-                <li class="fragment"></li>
+                <li class="fragment"><a href="https://www.git-tower.com/blog/git-cheat-sheet/" target="_blank">Cheat sheet</a></li>
+                <li class="fragment"><a href="https://guides.github.com/" target="_blank">Github guides</a></li>
+                <li class="fragment"><a href="https://www.sourcetreeapp.com/download/" target="_blank">Source Tree</a></li>
             </ul>
             <p>
                 <a href=""></a>
             </p>
             <aside class="notes"></aside>
         </section>
+
+
+        <!--/Git Slides-->
 
         <!--<section>-->
             <!--<h2>Clever Quotes</h2>-->
